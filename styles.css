@@ -1,23 +1,75 @@
-.h2{color: rgb(126, 212, 73);}
-.h1{color: #172B4D;}
 
-.headline{
+    .headline {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 160px 0;
+        gap: 24px;
+        position: absolute;
+        width: 920px;
+        height: 756px;
+        left: 260px;
+        top: 72px;
+      }
+      .header-container {
+        display: flex;
+        justify-content: center;
+        font-family: 'inter', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 60px;
+        flex-direction: column;
+        text-align: center;
+        letter-spacing: 0.37px;
+      }
+
+      .p {
+        display: flex;
+        justify-content: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+        color: #172b4d;
+      }
+    
+      .icon {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+      }
+    
+
+  .h2 { color: rgb(126, 212, 73); }
+  .h1 { color: #172b4d; }
+
+  @font-face {
+    font-family: 'inter', sans-serif;
+    src: url(fonts/Inter.ttf);
+  }
+
+
+  .headline-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 160px 0px;
+    padding: 160px 0;
     gap: 24px;
     position: absolute;
     width: 920px;
     height: 756px;
     left: 260px;
     top: 72px;
-
-}
-.header-container{
+  }
+  .header-container {
     display: flex;
     justify-content: center;
-    font-family: 'Inter';
+    font-family: 'inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -25,31 +77,34 @@
     flex-direction: column;
     text-align: center;
     letter-spacing: 0.37px;
+  }
 
-   
-}
-.p{
+  .p {
     display: flex;
     justify-content: center;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     text-align: center;
-    color: #172B4D;
-  
-}
-.icon{
+    color: #172b4d;
+    border: 0px transparent !important;
+  }
+
+  .icon {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    
+    padding: 0;
+    border: 0px transparent !important;
+  }
+ 
+
+  @media  (min-width: 480px) {
+    .container{
+        border: 2px solid;
+        border-color: rgb(11, 11, 238);       
+    }
 }
-.icon1{flex: none; order: 2; flex-grow: 0;}
-.icon2{flex: none; order: 2; flex-grow: 0;}
-.icon3{flex: none; order: 2; flex-grow: 0;}
-.icon4{flex: none; order: 2; flex-grow: 0;}
-.icon5{flex: none; order: 2; flex-grow: 0;}
