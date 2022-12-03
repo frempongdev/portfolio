@@ -2,11 +2,6 @@ html * {
   max-height: 1000000px;
 }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url("Fonts/Poppins.ttf");
-}
-
 .appbar {
   position: absolute;
   width: 375px;
@@ -15,6 +10,10 @@ html * {
   top: 0;
   display: flex;
   flex-direction: column;
+}
+
+.navbar .nav-container {
+  margin-left: 10%;
 }
 
 .appbar .status {
@@ -28,7 +27,6 @@ html * {
 .icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-betwee;
   align-items: center;
   flex: 1;
 }
@@ -63,12 +61,11 @@ ul {
   list-style: none;
 }
 
-
 .nav-container .navbar-brand {
   width: 76px;
   height: 20px;
-  font-family:'Poppins';
   font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -104,12 +101,12 @@ ul {
   display: flex;
   color: #6070ff;
   font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container .heading {
   display: flex;
   justify-content: center;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -124,9 +121,8 @@ h1 {
   height: 150px;
 
   /* Header / 2 */
-
-  font-family: 'Poppins';
   font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -139,7 +135,6 @@ h1 {
   /* Neutrals/N800 */
 
   color: #172b4d;
-
 
   /* Inside auto layout */
 
@@ -157,8 +152,8 @@ h1 {
 }
 
 #p1 {
-  font-family: 'Poppins';
   color: #344563;
+  font-family: 'Poppins', sans-serif;
 }
 
 .background-images {
