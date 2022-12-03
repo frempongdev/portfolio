@@ -9,30 +9,26 @@ html * {
   left: 0;
   top: 0;
   display: flex;
-  flex-direction: column;
-}
+ }
 
 .navbar .nav-container {
   margin-left: 10%;
 }
 
-.appbar .status {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-right: 10px;
-  top: 10px;
-}
 
 .icons {
   display: flex;
   flex-direction: row;
   align-items: center;
   flex: 1;
+  justify-content: flex-start;
+
+ 
+  
 }
 
 .icon {
-  padding: 5px;
+  padding: 10px;
 }
 
 .navbar-toggler {
@@ -115,7 +111,46 @@ ul {
   color: #172b4d;
   margin-left: 0%;
 }
+.socialmedia{
+  width: 170.17px;
+  height: 20px;
+}
+.icon1{
+position: absolute;
+left: 6.4%;
+right: 88.27%;
+top: 90.81%;
+bottom: 18.88%;
+}
+.icon2{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 63px;
+  top: 90.81%;
+}
+.icon3{
+  position: absolute;
+left: 27.47%;
+right: 67.2%;
+top: 90.81%;
+bottom: 19.21%;
+}
+.icon4{
+  position: absolute;
+left: 38.13%;
+right: 57.07%;
+top: 90.81%;
+bottom: 18.87%;
 
+}
+.icon5{
+  position: absolute;
+left: 48%;
+right: 48.22%;
+top: 90.81%;
+bottom: 18.87%;
+}
 h1 {
   width: 327px;
   height: 150px;
