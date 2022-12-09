@@ -16,10 +16,17 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
+
 # 📖 [Portfolio: finish mobile version] <a name="Hello-World"></a>
 
 
 **[Portfolio: finish mobile version]** is a project that shows you how to create your portfolio as a developer.
+=======
+# 📖 [Portfolio:setup and mobile first] <a name="Hello-World"></a>
+
+
+**[Portfolio:setup and mobile first]** is a project that shows you how to create your portfolio as a developer.
+
 You will learn how to use flexbox to place elements in a HTML page.
 
 Furthermore, In this project, you will learn to use linters to correct errors in your code.
@@ -84,6 +91,8 @@ An HTML element becomes a grid container when its display property is set to gri
 To learn more on grid layout; please click on the link below
 
 https://www.w3schools.com/css/css_grid.asp
+=======
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
