@@ -16,10 +16,17 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
+
+# 📖 [Portfolio: finish mobile version] <a name="Hello-World"></a>
+
+
+**[Portfolio: finish mobile version]** is a project that shows you how to create your portfolio as a developer.
+=======
 # 📖 [Portfolio:setup and mobile first] <a name="Hello-World"></a>
 
 
 **[Portfolio:setup and mobile first]** is a project that shows you how to create your portfolio as a developer.
+
 You will learn how to use flexbox to place elements in a HTML page.
 
 Furthermore, In this project, you will learn to use linters to correct errors in your code.
@@ -71,58 +78,21 @@ Flex box was designed as a one-dimensional layout model, and as a method that co
 
 To learn more on flexbox please click on this link https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox 
 
-## Linters
-A linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs(source: [Wikipedia](<https://en.wikipedia.org/wiki/Lint_(software)>)).
+## CSS Grid
+The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
 
-There are a few reasons for using linters:
+An HTML element becomes a grid container when its display property is set to grid or inline-grid.
 
-1. Catching syntax errors is more efficient. There is no need to debug simple mistakes like typos - the linter does it for you.
-2. The entire codebase looks like written by one person.
-3. Programmers can focus on solving problems, instead of cleaning up the code.
-
-## Set-up linters in your local environment i.e on your editor
-
-**Note**: The `npm` package manager is going to create a `node_modules` directory to install all of your dependencies. You shouldn't commit that directory. To avoid that, you can create a [`.gitignore`](https://git-scm.com/docs/gitignore) file and add `node_modules` to it:
-
+```sh
+.grid-container {
+  display: grid;
+}
 ```
-# .gitignore
-node_modules/
-```
-**NOTE:** If you are running on Windows, you need to initialize npm to create `package.json` file. 
-   ```
-   npm init -y
-   ```
-   1. Run
-   ```
-   npm install --save-dev hint@7.x
-   ```
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run
-   ```
-   npx hint .
-   ```
-5. Fix validation errors.
+To learn more on grid layout; please click on the link below
 
-### [Stylelint](https://stylelint.io/)
+https://www.w3schools.com/css/css_grid.asp
+=======
 
-A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
-
-1. Run
-
-   ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x   ```
-
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/cli#autofixing-errors) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
