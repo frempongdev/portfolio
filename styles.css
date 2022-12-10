@@ -413,11 +413,10 @@ h1 {
   flex-direction: row;
   align-items: center;
   padding: 0;
-   gap: 8px;
+  gap: 8px;
   width: 203px;
   height: 24px;
   padding-bottom: 20px;
-
 }
 
 .button1 {
@@ -561,7 +560,7 @@ h1 {
 }
 
 #myself {
-   width: 327px;
+  width: 327px;
   height: 101px;
   margin-top: 20%;
   font-family: 'Poppins', sans-serif;
@@ -659,18 +658,18 @@ h1 {
   border-radius: 8px;
 }
 
-.frame8{
+.frame8 {
   width: 327px;
   height: 72px;
   position: relative;
+}
 
-}
-.frame9{
+.frame9 {
   width: 327px;
   height: 72px;
   position: relative;
-  
 }
+
 #frm {
   position: absolute;
   height: 24px;
@@ -759,13 +758,12 @@ h1 {
 }
 
 #hr2 {
-  position: absolute;
+  position: relative;
   height: 1px;
   left: 20px;
   bottom: -90px;
   width: 303px;
-  position: relative;
-   background: #dfe1e6;
+  background: #dfe1e6;
 }
 
 .arrow {
@@ -788,23 +786,26 @@ h1 {
   padding: 3px;
   margin-left: 400%;
 }
-.chevron{
-position: absolute;
-left: 65%;
-right: 25%;
-top: calc(43% - 24px / 2);
-bottom: 37.5%;
-}
-.project:hover{
-  color: #FFFFFF;
-  background: #6070FF;
-}
-.project:enabled{
-color: #6070FF;
-background: #FFFFFF;
+
+.chevron {
+  position: absolute;
+  left: 65%;
+  right: 25%;
+  top: calc(42% - 24px / 2);
+  bottom: 37.5%;
 }
 
-.projectz:hover{
-color: #FFFFFF;
-background: #6070FF;
+.project:hover {
+  color: #fff;
+  background: #6070ff;
+}
+
+.project:enabled {
+  color: #6070ff;
+  background: #fff;
+}
+
+.projectz:hover {
+  color: #fff;
+  background: #6070ff;
 }
