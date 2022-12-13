@@ -17,11 +17,8 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio: finish mobile version] <a name="Hello-World"></a>
 
 
-**[Portfolio: finish mobile version]** is a project that shows you how to create your portfolio as a developer.
-=======
 # 📖 [Portfolio:setup and mobile first] <a name="Hello-World"></a>
 
 
