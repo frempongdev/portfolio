@@ -954,6 +954,9 @@ button:focus {
   text-decoration: none;
   width: 140px;
   height: 48px;
+  color: #6070ff;
+  outline: transparent;
+  border: none;
 }
 
 .elp12 {
