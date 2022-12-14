@@ -17,15 +17,11 @@
 - [📝 License](#license)
 
 
-# 📖 [Portfolio: finish mobile version] <a name="Hello-World"></a>
+# 📖 [Portfolio: add a contact form and finish the mobile version <a name="about-project"></a>
 
 
-**[Portfolio: finish mobile version]** is a project that shows you how to create your portfolio as a developer.
-=======
-# 📖 [Portfolio:setup and mobile first] <a name="Hello-World"></a>
+**[Portfolio: add a contact form and finish the mobile version]** is a project that shows you how to create your portfolio's contact form.
 
-
-**[Portfolio:setup and mobile first]** is a project that shows you how to create your portfolio as a developer.
 
 You will learn how to use flexbox to place elements in a HTML page.
 
@@ -78,20 +74,16 @@ Flex box was designed as a one-dimensional layout model, and as a method that co
 
 To learn more on flexbox please click on this link https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox 
 
-## CSS Grid
-The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+## Forms
+Web forms are one of the main points of interaction between a user and a website or application. Forms allow users to enter data, which is generally sent to a web server for processing and storage (see Sending form data later in the module), or used on the client-side to immediately update the interface in some way (for example, add another item to a list, or show or hide a UI feature).
 
-An HTML element becomes a grid container when its display property is set to grid or inline-grid.
-
+All forms start with a <form> element, like this:
 ```sh
-.grid-container {
-  display: grid;
-}
+<form action="/my-handling-form-page" method="post">…</form>
 ```
-To learn more on grid layout; please click on the link below
+To learn more on grid layout; please click on the link below 
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
 
-https://www.w3schools.com/css/css_grid.asp
-=======
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
