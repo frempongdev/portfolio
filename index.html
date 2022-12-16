@@ -13,35 +13,36 @@
     <title>Portfolio</title>
 
       <header class="head" >          
-      <nav class="navbar navbar-light">
-        <div class="container-fluid">
-          <div class="nav-container">
-          <a class="navbar-brand" href="#">My Logo</a>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+       
+
+        <nav class="navbar navbar-light">
+          <div class="container-fluid">
+            <div class="nav-container">
+            <a class="navbar-brand" href="#">My Logo</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                       
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Contact</a>
+                  </li>
+                                 
+                </ul>
             
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="#">Contact</a>
-                </li>
-                               
-              </ul>
-          
+              </div>
             </div>
           </div>
-        </div>
-      </nav>
-      <section class="container" >
+        </nav>
+      <div class="content"  >
         <div class="items-wrapper">
           <h1 class="heading">I’m Fatuma
           Glad to see <br> you!</h1>
@@ -57,19 +58,23 @@
                 <li> <a href="#"><img class="socialmedia icon5"  src="vectors/Vector3.png"></a></li>  
            </ul>
        </div>
-        </section>  
+      </div>
+      
   </header>
 
 </head>
 <body>
   <div class="main">
-     <section class="works">
+    <section class="works">
       <div class="grid-container">
         <div class="grid-item">
 
           <div class="card">
-            <img class="card-img" src="vectors/snap.png" alt="Card image cap">
-           <div class="left-block">
+           
+            <img id="one" class="card-img" src="vectors/snap.png" alt="Card image cap">
+            <img id="two" class="card-img" src="vectors/snap20.png" alt="Card image cap">
+       
+            <div class="left-block">
             <div class="card-body">
               <h5 class="card-title">Tonic</h5>
               <ul class="card-list">
@@ -89,12 +94,14 @@
                <div class="project">
                 <a id="proj" href="#" class="button" >See Project</a>
                </div>
-
-            </div>
+              </div>
+         
             </div>
           </div>
 
-          <div class="card">
+          
+
+          <div id="swap" class="card">
             <img class="card-img" src="vectors/snap2.png" alt="Card image cap">
            <div class="left-block">
             <div class="card-body">
@@ -121,7 +128,32 @@
             </div>
           </div>
 
-          <div class="card">
+          <div id="desktp" class="card">
+            <img class="card-img" src="vectors/snap.png" alt="Card image cap">
+           <div class="left-block">
+            <div class="card-body">
+              <h5 class="card-title">Facebook 360</h5>
+              <ul class="card-list">
+                <li id="dt"  class="card-text">FACEBOOK</li>
+                <li class="dot"></li>
+                <li class="devs">Full Stack Dev</li>
+                <li class="dot"></li>
+                <li class="year">2015</li>
+                </ul>
+                <p class="text">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+               <ul class="tags">
+               <li id="html"><a href="#" class="tags button1">html</a></li>
+               <li id="css"><a href="#" class="tags button2">css</a></li>
+               <li id="js"><a href="#" class="tags button3">javascript</a></li>
+               </ul> 
+               <div class="project">
+                <a id="proj" href="#" class="button">See Project</a>
+               </div>
+         </div>
+         </div>
+         </div>
+
+          <div id="yoga" class="card">
             <img class="card-img" src="vectors/snap3.png" alt="Card image cap">
            <div class="left-block">
             <div class="card-body">
@@ -148,10 +180,10 @@
             </div>
           </div>
 
-          <div class="card">
+          <div id="swap" class="card">
             <img class="card-img" src="vectors/snap4.png" alt="Card image cap">
-           <div class="left-block">
-            <div class="card-body">
+           <div  class="left-block">
+            <div  class="card-body">
               <h5 class="card-title">Multi-Post<br>
                 Stories</h5>
               <ul class="card-list2">
@@ -273,6 +305,7 @@
            <li><img class="elp5" src="vectors/contact/Ellipse 5.png" alt=""></li>
             <li><img class="rec4" src="vectors/contact/Rectangle 4.png" alt=""></li>
              <li><img class="rec7" src="vectors/contact/Rectangle 7.png" alt=""></li>
+          
     </ul>
   </section>
  </div>

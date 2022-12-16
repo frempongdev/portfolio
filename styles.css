@@ -3,13 +3,17 @@ html * {
   max-height: 1000000px;
 }
 
+
 body {
   position: relative;
   width: 100%;
   height: 5410px;
   background: #f7f7f9;
 }
-
+.container-fluid{
+  display: flex;
+  justify-content:space-between ;
+}
 .head {
   display: flex;
   flex-flow: nowrap;
@@ -18,11 +22,24 @@ body {
   width: 100%;
   height: 730px;
   border-bottom-left-radius: 50px;
+  display: flex;
+  flex-flow: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 730px;
+  width:100% ;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+  background-color: #fff;
+  
 }
 
 .navbar {
-  padding-top: 50px;
+  padding-top: 10%;
   margin-left: 5%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .icons {
@@ -38,6 +55,7 @@ body {
 }
 
 .navbar-toggler {
+
   border: 0 !important;
 }
 
@@ -69,31 +87,15 @@ ul {
   color: #6070ff;
 }
 
-.container {
-  display: flex;
-  flex-flow: nowrap;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 40%;
-  padding-left: 30px;
-  padding-right: 30px;
-  align-items: center;
-  background-color: #fff;
+
+
+.content{
+  padding-top: 30%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.icon-wrapper .items-wrapper {
-  width: 50%;
-}
-
-@media only screen and (max-width: 600px) {
-  .container {
-    display: block;
-  }
-
-  .icon-wrapper .items-wrapper {
-    width: 100%;
-  }
-}
 
 #p2 {
   display: flex;
@@ -121,7 +123,7 @@ ul {
 }
 
 .socialmedia {
-  display: inline-flex;
+  display:flex;
   padding: 5px;
 }
 
@@ -644,7 +646,9 @@ h1 {
   top: calc(38% - 24px / 2);
   margin-top: 10%;
 }
-
+#desktp{
+  display: none;
+}
 #jv {
   padding-left: 2%;
 }
@@ -978,7 +982,9 @@ button:focus {
   background: #7f8cff;
   transform: rotate(-23.18deg);
 }
-
+.card #two{
+display: none;
+}
 .elp3 {
   position: absolute;
   right: 2%;
@@ -1006,4 +1012,185 @@ button:focus {
   top: 5368px;
   background: #7f8cff;
   transform: matrix(0.8, 0.6, 0.6, -0.8, 0, 0);
+}
+.offcanvas-body ul li a{
+  display: none;
+}
+/* Media query for devices greater than 768 - Desktop*/
+
+@media only screen and (min-width:768px) {
+  .navbar{
+    padding-top: 2%;
+  }
+  .navbar-toggler{
+    display: none;
+  }
+  .offcanvas-body ul li a{
+    display: block;
+  }
+  .offcanvas-body ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2%;
+    margin-right: 10%;
+    color: #344563;
+      }
+  .offcanvas-body ul li a  {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+}
+.head .items-wrapper .heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+  justify-content: center;
+  align-items:center;
+}
+
+.head{
+  background-image: url(vectors/header.png);
+  background-position-y:10rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10%;
+  height: auto;
+  width:100% ;
+  background-color: #fff;
+  border-bottom-left-radius: 50px;
+}
+.heading br {
+  display: none;
+}
+.background-images{
+  display: none;
+}
+#p1{
+  padding-top: 5%;
+}
+.icon-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  }
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.heading{
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+display: flex;
+align-items: center;
+letter-spacing: 0.37px;
+color: #091E42;
+}
+.content{
+  padding-top:30%;
+ }
+ .grid-item {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  gap: 88px;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 28px;
+}
+ .card{
+  box-sizing: border-box;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  width: 50rem;
+  height: auto;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+ }
+ .card-img{
+  width:100%;
+  padding: 1%;
+ }
+.text{
+  padding-bottom: 25%;
+}
+ .card-body{
+  padding-top: 2%;
+  display: flex;
+  gap:1%
+  }
+  .project{
+    top: calc(74% - 48px / 2);
+  }
+  .projectz{
+    top: calc(78% - 48px / 2);
+  }
+  #swap{
+    display: flex;
+  }
+  #swap .card-img {
+  order: 1;
+  }
+  #swap .left-block {
+    order: 0;
+    }
+     .card  #one{
+      display: none;
+      }
+      .card #two{
+        display: flex;
+              width:60%;
+        height: auto;
+        padding: 1%;
+      }
+      #desktp{
+        display: flex;
+      }
+      #yoga{
+        display: none;
+      }
+      .card-list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        gap: 4%
+        
+      }
+      #dt{
+        width: 30%;
+      }
+      .devs {
+        width: 9em;
+        height: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        color: #7a869a;
+      }
+      
+    
 }
