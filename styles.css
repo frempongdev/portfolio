@@ -11,14 +11,16 @@ body {
 }
 
 .container-fluid {
-    display: flex;
-  margin-top:1%;
+  display: flex;
+  margin-top: 1%;
   justify-content: space-between;
-  gap:40%;
+  gap: 40%;
 }
-textarea{
+
+textarea {
   resize: none;
 }
+
 .head {
   display: flex;
   flex-flow: nowrap;
@@ -27,10 +29,9 @@ textarea{
   width: 100%;
   height: 730px;
   border-bottom-left-radius: 50px;
-    padding-left: 30px;
+  padding-left: 30px;
   padding-right: 30px;
-   background-color: #fff;
- 
+  background-color: #fff;
 }
 
 #h-d {
@@ -58,7 +59,6 @@ textarea{
 .navbar-toggler {
   border: 0 !important;
   justify-content: flex-end;
-
 }
 
 .navbar-toggler:focus {
@@ -1105,7 +1105,7 @@ button:focus {
     display: none;
   }
 
-  .background-images{
+  .background-images {
     display: none;
   }
 
@@ -1382,9 +1382,9 @@ button:focus {
 
   .contact-me {
     top: 3600px;
-
   }
-   .flex-container {
+
+  .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1493,10 +1493,12 @@ button:focus {
   #desktp .card-body #projs {
     margin-top: 4%;
   }
-  #ul{
+
+  #ul {
     list-style: none;
   }
-body {
+
+  body {
     position: relative;
     width: 100%;
     height: 4010px;
