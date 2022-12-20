@@ -9,9 +9,11 @@ body {
   height: 5410px;
   background: #f7f7f9;
 }
-label{
- display: none;
+
+label {
+  display: none;
 }
+
 .container-fluid {
   display: flex;
   margin-top: 1%;
@@ -100,7 +102,7 @@ ul {
 
 #p2 {
   display: flex;
-  color: #4D5EFF;
+  color: #4d5eff;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
 }
@@ -1161,6 +1163,7 @@ button:focus {
   .text {
     padding-bottom: 25%;
   }
+
   .grid-container {
     display: flex;
     flex-direction: column;
