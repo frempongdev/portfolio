@@ -100,7 +100,6 @@ https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form
 - LinkedIn: (https://www.linkedin.com/in/fatuma-hussein-48149917b/)
 
 
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 <!-- CONTRIBUTING -->
